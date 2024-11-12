@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+<title>Ai Chatpot</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=keyboard_arrow_down" />
+  <link rel="stylesheet" href="style.css">
+  <link rel=" javascript" href="script.js"
+</head>
+<body>
+
+  <!-- Landing Page Section -->
+  <section class="landing">
+    <div class="container">
+      <div class="intro">
+        <h1>Welcome to Our Chatbot</h1>
+        <p>Your personal assistant is just a click away.</p>
+        <button class="cta-btn" id="chatbot-btn">Chat Now</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Chatbot Interface (Initially Hidden) -->
+  <div class="chatbot-container" id="chatbot-container">
+    <div class="chatbox">
+      <div class="chat-header">
+        <h2>Chat with Us</h2>
+        <button id="close-chat" class="close-btn">X</button>
+      </div>
+      <div class="chat-messages" id="chat-messages">
+        <!-- Chat messages will go here -->
+      </div>
+      <div class="chat-input">
+        <input type="text" id="user-input" placeholder="Type a message..." />
+        <button id="send-btn">Send</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
